@@ -16,8 +16,11 @@ def search(regex: str) -> List[str]:
 
 def main():
     while True:
-        var = input("Please enter something: ")
-        print(search(var))
+        var = input("Please enter regex: ")
+        if not var:
+            print("Please enter valid string")
+        else:
+            print(search(var))
 
 
 if __name__ == "__main__":
