@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "puzzles"
+version = "0.1.0"
+description = "useful scripts for puzzlehunts"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nltk = "^3.8.1"
+isort = "^5.12.0"
+mypy = "^1.2.0"
+yapf = "^0.33.0"
+flake8 = "^6.0.0"
+english-words = "^2.0.0"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
